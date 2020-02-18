@@ -1,4 +1,3 @@
-package com.jonorrea;
 
 public class CountUppercase {
 
