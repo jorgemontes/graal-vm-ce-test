@@ -1,4 +1,6 @@
-
+/**
+ * This example counts the number of uppercase characters in a body of text. To simulate a large load, the same sentence is processed 10 million times
+ */
 public class CountUppercase {
 
     static final int ITERATIONS = Math.max(Integer.getInteger("iterations", 1), 1);
