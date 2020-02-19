@@ -1,6 +1,10 @@
 version: "3"
 services:
   graalvm:
-    build: './graalvm'
+    build:
+      context: ./
+      dockerfile: Dockerfile-graalvm
   openjdk:
-    build: './openjdk'
+    build:
+      context: ./
+      dockerfile: Dockerfile-openjdk
