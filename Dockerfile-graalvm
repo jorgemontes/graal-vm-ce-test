@@ -1,4 +1,4 @@
-FROM oracle/graalvm-ce:19.3.1
+FROM oracle/graalvm-ce:latest
 COPY ./src/ /workdir
 WORKDIR /workdir
 RUN javac CountUppercase.java
